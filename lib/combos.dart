@@ -2422,7 +2422,7 @@ class _ArrowedItem extends StatelessWidget {
           // move back from bodyText1 to update rating on pub.dev !!!
           // ignore: deprecated_member_use
           color:
-              Theme.of(context)?.textTheme?.bodyText1?.color?.withOpacity(0.5),
+              Theme.of(context)?.textTheme?.bodyText2?.color?.withOpacity(0.5),
         )
       ]);
 }
