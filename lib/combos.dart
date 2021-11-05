@@ -2421,7 +2421,8 @@ class _ArrowedItem extends StatelessWidget {
           Icons.arrow_right,
           // move back from bodyText1 to update rating on pub.dev !!!
           // ignore: deprecated_member_use
-          color: Theme.of(context)?.textTheme?.body1?.color?.withOpacity(0.5),
+          color:
+              Theme.of(context)?.textTheme?.bodyText1?.color?.withOpacity(0.5),
         )
       ]);
 }
